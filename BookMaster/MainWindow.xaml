@@ -1,0 +1,81 @@
+﻿<Window x:Class="BookMaster.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookMaster"
+        mc:Ignorable="d"
+        Title="Bookmaster3000™" Height="600" Width="800" MinHeight="600" MinWidth="800" MaxHeight="600" MaxWidth="800" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="19"/>
+
+            <RowDefinition Height="271"/>
+
+            <RowDefinition Height="40"/>
+
+            <RowDefinition Height="270"/>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="230"/>
+            <ColumnDefinition Width="562"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="32" Grid.Row="0" Grid.Column="0">
+
+            <MenuItem Header="File">
+
+                <MenuItem Header="Login" Name="MnItLogin" Click="MnIt_Login_Click"/>
+                <MenuItem Header="LogOut" Name="MnItLogOut" Click="MnIt_LogOut_Click"/>
+                <MenuItem Header="Close" Name="MnItClose" Click="MnIt_Close_Click"/>
+
+            </MenuItem>
+
+            <MenuItem Header="Library" IsEnabled="False" Name="MnItLibrary">
+
+                <MenuItem Header="Manage Customers" Name="MnItManageCus"/>
+                <MenuItem Header="Circulation" Name="MnItCircle"/>
+                <MenuItem Header="Reports" Name="MnItReports"/>
+
+            </MenuItem>
+
+        </Menu>
+
+        <Image Source="/Images/Logo.png" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="116" Width="224" Margin="-3,20,9,0"/>
+
+        <StackPanel Style="{StaticResource StpCenterVer}" Grid.Row="1" Grid.Column="0" Grid.RowSpan="3" Height="58" Margin="89,261,97,262" Width="44">
+
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock Text="Title"/>
+                <TextBox Name="TxbTitle"/>
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock Text="Author"/>
+                <TextBox Name="TxbAuthor"/>
+
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+
+                <TextBlock Text="Subject"/>
+                <TextBox Name="TxbSubject"/>
+
+            </StackPanel>
+
+            <Button Name="BtnSearch" Click="BtnSearch_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+
+</Window>
