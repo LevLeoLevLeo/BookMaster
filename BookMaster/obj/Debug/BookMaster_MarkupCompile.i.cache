@@ -4,12 +4,20 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\
+=======
 Z:\BookMaster\BookMaster\obj\Debug\
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 BookMaster
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\App.xaml
+=======
 Z:\BookMaster\BookMaster\App.xaml
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 2-1989781940
 
 8-1362307412

@@ -21,6 +21,25 @@ namespace BookMaster
     /// </summary>
     public partial class MainWindow : Window
     {
+<<<<<<< HEAD
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void MnIt_Login_Click(object sender, RoutedEventArgs e) //Open "Login dialog"
+        {
+
+            Autorize.AccesLibrary = MnIt_Library;
+            Windows.WindowDilogLogin dilogLogin = new Windows.WindowDilogLogin();
+            dilogLogin.Show(); 
+
+        }
+
+        private void MnIt_LogOut_Click(object sender, RoutedEventArgs e) //LogOut
+        {
+            MainWindow mainWindow = new MainWindow();
+=======
         
         public MainWindow()
         
@@ -46,11 +65,19 @@ namespace BookMaster
         {
             
             MainWindow mainWindow = new MainWindow();  //LogOut
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
             this.Close();
             mainWindow.Show();
             
         }
 
+<<<<<<< HEAD
+        private void MnIt_Close_Click(object sender, RoutedEventArgs e) //Shutdown the application
+        {
+            Application.Current.Shutdown();
+        }
+    }
+=======
         private void MnIt_Close_Click(object sender, RoutedEventArgs e)
         
         {
@@ -65,4 +92,5 @@ namespace BookMaster
         }
     }
 
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 }

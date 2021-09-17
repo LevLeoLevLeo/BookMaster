@@ -6,10 +6,19 @@
         xmlns:local="clr-namespace:BookMaster"
         mc:Ignorable="d"
         Title="Bookmaster3000™" Height="600" Width="800" MinHeight="600" MinWidth="800" MaxHeight="600" MaxWidth="800" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+<<<<<<< HEAD
+
+=======
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
     <Grid>
 
         <Grid.RowDefinitions>
 
+<<<<<<< HEAD
+            <RowDefinition Height="18"/>
+            <RowDefinition Height="489"/>
+
+=======
             <RowDefinition Height="19"/>
 
             <RowDefinition Height="271"/>
@@ -17,11 +26,49 @@
             <RowDefinition Height="40"/>
 
             <RowDefinition Height="270"/>
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
 
+<<<<<<< HEAD
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="500"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1" Grid.Row="1" Width="591" Height="550">
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="217*"/>
+                <RowDefinition Height="32*"/>
+
+                <RowDefinition Height="301*"/>
+
+            </Grid.RowDefinitions>
+
+        </Grid>
+
+        <Image Source="/Images/Logo.png" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 20 0 0" Width="191" Height="88"/>
+
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Height="18" Width="82" Grid.Row="0" Grid.Column="0">
+
+            <MenuItem Header="File">
+
+                <MenuItem Header="Login" Name="MnIt_Login" Click="MnIt_Login_Click"/>
+                <MenuItem Header="LogOut" Name="MnIt_LogOut" Click="MnIt_LogOut_Click"/>
+                <MenuItem Header="Close" Name="MnIt_Close" Click="MnIt_Close_Click"/>
+
+            </MenuItem>
+
+            <MenuItem Header="Library" Visibility="Collapsed" Name="MnIt_Library">
+
+                <MenuItem Header="Manage Customers" Name="MnIt_ManageCus"/>
+                <MenuItem Header="Circulation" Name="MnIt_Circle"/>
+                <MenuItem Header="Reports" Name="MnIt_Reports"/>
+=======
             <ColumnDefinition Width="230"/>
             <ColumnDefinition Width="562"/>
 
@@ -42,10 +89,44 @@
                 <MenuItem Header="Manage Customers" Name="MnItManageCus"/>
                 <MenuItem Header="Circulation" Name="MnItCircle"/>
                 <MenuItem Header="Reports" Name="MnItReports"/>
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 
             </MenuItem>
 
         </Menu>
+<<<<<<< HEAD
+        
+        <!--#region Search-->
+
+        <StackPanel Style="{StaticResource StpCenterVer}" Grid.Row="1" Grid.Column="0">
+
+            <StackPanel Style="{StaticResource StpCenterHor}">
+
+                <TextBlock Text="Title" Style="{StaticResource TxbSearch}"/>
+                <TextBox Name="TxbTitle" Style="{StaticResource TxBSearch}"/>
+
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StpSearch}">
+
+                <TextBlock Text="Author" Style="{StaticResource TxbSearch}"/>
+                <TextBox Name="TxbAuthor" Style="{StaticResource TxBSearch}"/>
+
+            </StackPanel>
+
+            <StackPanel Style="{StaticResource StpSearch}">
+
+                <TextBlock Text="Subject" Style="{StaticResource TxbSearch}"/>
+                <TextBox Name="TxbSubject" Style="{StaticResource TxBSearch}"/>
+
+            </StackPanel>
+
+            <Button Name="BtnSearch" Style="{StaticResource BtnSearch}"/>
+
+        </StackPanel>
+        
+        <!--#endregion-->
+=======
 
         <Image Source="/Images/Logo.png" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Height="116" Width="224" Margin="-3,20,9,0"/>
 
@@ -75,6 +156,7 @@
             <Button Name="BtnSearch" Click="BtnSearch_Click"/>
 
         </StackPanel>
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 
     </Grid>
 

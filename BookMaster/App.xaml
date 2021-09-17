@@ -26,6 +26,17 @@
 
         </Style>
 
+<<<<<<< HEAD
+        <Style TargetType="StackPanel" x:Key="StpCenterHor">
+
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Orientation" Value="Horizontal"/>
+
+        </Style>
+
+=======
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
         <Style TargetType="TextBlock" x:Key="TxblLogPas">
 
             <Setter Property="FontFamily" Value="Tahoma"/>
@@ -46,7 +57,11 @@
 
         </Style>
 
+<<<<<<< HEAD
+        <Style TargetType="PasswordBox" x:Key="PsbLogPas">
+=======
         <Style TargetType="PasswordBox" x:Key="PsbLogin">
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 
             <Setter Property="FontFamily" Value="Tahoma"/>
             <Setter Property="Foreground" Value="Black"/>
@@ -58,6 +73,62 @@
 
         </Style>
 
+<<<<<<< HEAD
+    <!--#Region MainWindow-->
+
+        <!--#region Search-->
+        
+        <Style TargetType="TextBlock" BasedOn="{StaticResource TxblLogPas}" x:Key="TxbSearch">
+
+            <Setter Property="FontSize" Value="11pt"/>
+
+        </Style>
+
+        <Style TargetType="TextBox" BasedOn="{StaticResource TxbLogPas}" x:Key="TxBSearch">
+
+            <Setter Property="Width" Value="100px"/>
+            <Setter Property="BorderThickness" Value="1.5"/>
+
+        </Style>
+
+        <Style TargetType="StackPanel" BasedOn="{StaticResource StpCenterHor}" x:Key="StpSearch">
+
+            <Setter Property="Margin" Value="0 10 0 0"/>
+
+        </Style>
+
+        <Style TargetType="Button" x:Key="BtnSearch">
+
+            <Setter Property="Content" Value="Search"/>
+            <Setter Property="Width" Value="100px"/>
+            <Setter Property="FontSize" Value="11pt"/>
+            <Setter Property="HorizontalAlignment" Value="Right"/>
+            <Setter Property="Margin" Value="0 10 0 0"/>
+            <Setter Property="FontFamily" Value="Tahoma"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderThickness" Value="1.5"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+
+        </Style>
+       
+        <!--#endregion-->
+        
+        <!--#region Grid-->
+
+        <Style TargetType="Grid" x:Key="GrdMainWindow">
+
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="Background" Value="2"/>
+
+        </Style>
+
+        <!--#endregion-->
+        
+    <!--#endregion-->
+        
+    
+=======
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
     </Application.Resources>
 
 </Application>

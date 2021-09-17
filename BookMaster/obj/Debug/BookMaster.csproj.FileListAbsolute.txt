@@ -16,3 +16,24 @@ Z:\BookMaster\BookMaster\obj\Debug\BookMaster.pdb
 Z:\BookMaster\BookMaster\obj\Debug\Windows\WindowDilogLogin.g.cs
 Z:\BookMaster\BookMaster\obj\Debug\App.baml
 Z:\BookMaster\BookMaster\obj\Debug\Windows\WindowDilogLogin.baml
+<<<<<<< HEAD
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\bin\Debug\BookMaster.exe.config
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\bin\Debug\BookMaster.exe
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\bin\Debug\BookMaster.pdb
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.csproj.AssemblyReference.cache
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\MainWindow.g.cs
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\Windows\WindowDilogLogin.g.cs
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\App.g.cs
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster_MarkupCompile.cache
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster_MarkupCompile.lref
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\App.baml
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\MainWindow.baml
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\Windows\WindowDilogLogin.baml
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.g.resources
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.Properties.Resources.resources
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.csproj.GenerateResource.cache
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.csproj.CoreCompileInputs.cache
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.exe
+C:\Users\LevLeo\Desktop\BookMaster\BookMaster\obj\Debug\BookMaster.pdb
+=======
+>>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
