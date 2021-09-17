@@ -5,11 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BookMaster.Windows"
         mc:Ignorable="d"
-<<<<<<< HEAD
         Title="Login" Height="270" Width="400" MinHeight="270" MinWidth="400" MaxHeight="270" MaxWidth="400" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
-=======
-        Title="Login" Height="270" Width="400" MinHeight="270" MinWidth="400" MaxHeight="270" MaxWidth="400" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
->>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 
     <Grid>
         <Grid.RowDefinitions>
@@ -35,11 +31,7 @@
             <StackPanel HorizontalAlignment="Right" VerticalAlignment="Bottom" Orientation="Horizontal" Margin="0 10 0 0">
 
                 <TextBlock Text="Password" Style="{StaticResource TxblLogPas}" Margin=" 0 0 5 0"/>
-<<<<<<< HEAD
                 <PasswordBox Name="PsbPassword" Style="{StaticResource PsbLogPas}"/>
-=======
-                <PasswordBox Name="PsbPassword" Style="{StaticResource PsbLogin}"/>
->>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
 
             </StackPanel>
 

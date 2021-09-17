@@ -28,11 +28,7 @@ namespace BookMaster.Windows
         private void Btn_Login_Click(object sender, RoutedEventArgs e)
         {
 
-<<<<<<< HEAD
             Autorize.AccesLibrary.Visibility = Visibility.Visible;
-=======
-            Autorize.AccesLibrary.IsEnabled = true;
->>>>>>> 77830f8dc37016117521d3e11c03a1cda545ea39
             this.Close();
 
         }
