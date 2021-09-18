@@ -29,7 +29,7 @@ namespace BookMaster
         private void MnIt_Login_Click(object sender, RoutedEventArgs e) //Open "Login dialog"
         {
 
-            Autorize.AccesLibrary = MnIt_Library;
+            Autorize.AccesLibrary = MnItLibrary;
             Windows.WindowDilogLogin dilogLogin = new Windows.WindowDilogLogin();
             dilogLogin.Show(); 
 
@@ -46,6 +46,11 @@ namespace BookMaster
         private void MnIt_Close_Click(object sender, RoutedEventArgs e) //Shutdown the application
         {
             Application.Current.Shutdown();
+        }
+
+        private void BtnSearch_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -43,17 +43,17 @@
 
             <MenuItem Header="File">
 
-                <MenuItem Header="Login" Name="MnIt_Login" Click="MnIt_Login_Click"/>
-                <MenuItem Header="LogOut" Name="MnIt_LogOut" Click="MnIt_LogOut_Click"/>
-                <MenuItem Header="Close" Name="MnIt_Close" Click="MnIt_Close_Click"/>
+                <MenuItem Header="Login" Name="MnItLogin" Click="MnIt_Login_Click"/>
+                <MenuItem Header="LogOut" Name="MnItLogOut" Click="MnIt_LogOut_Click"/>
+                <MenuItem Header="Close" Name="MnItClose" Click="MnIt_Close_Click"/>
 
             </MenuItem>
 
-            <MenuItem Header="Library" Visibility="Collapsed" Name="MnIt_Library">
+            <MenuItem Header="Library" Visibility="Collapsed" Name="MnItLibrary">
 
-                <MenuItem Header="Manage Customers" Name="MnIt_ManageCus"/>
-                <MenuItem Header="Circulation" Name="MnIt_Circle"/>
-                <MenuItem Header="Reports" Name="MnIt_Reports"/>
+                <MenuItem Header="Manage Customers" Name="MnItManageCus"/>
+                <MenuItem Header="Circulation" Name="MnItCircle"/>
+                <MenuItem Header="Reports" Name="MnItReports"/>
 
             </MenuItem>
 
@@ -84,7 +84,7 @@
 
             </StackPanel>
 
-            <Button Name="BtnSearch" Style="{StaticResource BtnSearch}"/>
+            <Button Name="BtnSearch" Style="{StaticResource BtnSearch}" Click="BtnSearch_Click"/>
 
         </StackPanel>
         
